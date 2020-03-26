@@ -1,3 +1,3 @@
-pipeline {
-	 echo "Execute Jenkins pipelines"
+node {
+     echo "Jenkins pipelines"
 }
