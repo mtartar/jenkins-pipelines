@@ -38,7 +38,19 @@
 
 ### Docker
 
-https://www.jenkins.io/doc/book/pipeline/docker/
+[Using Docker with Pipeline](https://www.jenkins.io/doc/book/pipeline/docker)
+
+
+- Issue:
+
+The user jenkins needs to be added to the group docker:
+
+```
+sudo usermod -a -G docker jenkins
+```
+
+Then restart Jenkins.
+
 
 
 - []()
