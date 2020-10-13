@@ -41,6 +41,17 @@
 [Using Docker with Pipeline](https://www.jenkins.io/doc/book/pipeline/docker)
 
 
+
+- Plugin
+
+[Docker workflow](https://docs.cloudbees.com/docs/admin-resources/latest/plugins/docker-workflow)
+
+[Docker Pipeline Plugin](https://github.com/jenkinsci/docker-workflow-plugin)
+
+[Documentation](https://docs.cloudbees.com/docs/admin-resources/latest/plugins/docker-workflow)
+
+
+
 - Issue:
 
 The user jenkins needs to be added to the group docker:
