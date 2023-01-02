@@ -1,31 +1,43 @@
 # Jenkins pipelines
 
+
+[Glossary](https://www.jenkins.io/doc/book/glossary)
+
 ## Pipeline
 
 [pipeline](https://www.jenkins.io/doc/book/pipeline)
 
-[declarative pipeline](https://www.jenkins.io/doc/book/pipeline/syntax/#declarative-pipeline) uses DSL
+[Getting started with Pipeline](https://www.jenkins.io/doc/book/pipeline/getting-started)
+
+[Using a Jenkinsfile](https://www.jenkins.io/doc/book/pipeline/jenkinsfile)
+
+
+### Declarative Pipeline
+
+[declarative pipeline](https://www.jenkins.io/doc/book/pipeline/syntax/#declarative-pipeline)
 
 [fundamentals](https://www.jenkins.io/doc/book/pipeline/#declarative-pipeline-fundamentals)
 
-[scripted pipeline](https://www.jenkins.io/doc/book/pipeline/syntax/#scripted-pipeline) uses Groovy
+```
+pipeline {
+    /* insert Declarative Pipeline here */
+}
+```
+
+### Scripted Pipeline
+
+[scripted pipeline](https://www.jenkins.io/doc/book/pipeline/syntax/#scripted-pipeline) built with |Groovy](http://groovy-lang.org/syntax.html)
 
 [fundamentals](https://www.jenkins.io/doc/book/pipeline/#scripted-pipeline-fundamentals)
 
 
-[Jenkinsfile](https://www.jenkins.io/doc/book/pipeline/jenkinsfile)
-
-
-
-[Glossary](https://www.jenkins.io/doc/book/glossary)
-
 ### Blue Ocean
+
+[Getting started](https://jenkins.io/doc/book/blueocean/getting-started/)
 
 [Create a pipeline](https://jenkins.io/doc/tutorials/create-a-pipeline-in-blue-ocean/)
 
 [pipeline editor](https://jenkins.io/doc/book/blueocean/pipeline-editor/)
-
-[Getting started](https://jenkins.io/doc/book/blueocean/getting-started/)
 
 
 ### Flow control
@@ -40,9 +52,7 @@
 
 [Using Docker with Pipeline](https://www.jenkins.io/doc/book/pipeline/docker)
 
-
-
-- Plugin
+#### Plugins
 
 [Docker workflow](https://docs.cloudbees.com/docs/admin-resources/latest/plugins/docker-workflow)
 
@@ -51,8 +61,7 @@
 [Documentation](https://docs.cloudbees.com/docs/admin-resources/latest/plugins/docker-workflow)
 
 
-
-- Issue:
+#### Issues
 
 The user jenkins needs to be added to the group docker:
 
@@ -63,8 +72,6 @@ sudo usermod -a -G docker jenkins
 Then restart Jenkins.
 
 
-
-- []()
 
 ## Syntax
 
@@ -136,14 +143,6 @@ Then restart Jenkins.
 
 - [sh](https://www.jenkins.io/doc/pipeline/steps/workflow-durable-task-step/#sh-shell-script)
 
-```
-sh 'make check || true'
-```
-
-value zero => continue
-value non-zero => exit
-
-
 - [sleep](https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/#fileexists-verify-if-file-exists-in-workspace)
 
 - [stage](https://www.jenkins.io/doc/book/pipeline/syntax/#stage)
@@ -191,3 +190,10 @@ value non-zero => exit
 
 - [cron syntax](https://www.jenkins.io/doc/book/pipeline/syntax/#cron-syntax)
 
+- [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc). [Configuration as Code](https://plugins.jenkins.io/configuration-as-code)
+
+- [Pipeline Development Tools](https://www.jenkins.io/doc/book/pipeline/development)
+
+- [Jenkins CLI](https://www.jenkins.io/doc/book/managing/cli)
+
+- [Shared Libraries](https://www.jenkins.io/doc/book/pipeline/shared-libraries)
