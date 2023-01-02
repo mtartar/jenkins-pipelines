@@ -26,7 +26,7 @@ pipeline {
 
 ### Scripted Pipeline
 
-[scripted pipeline](https://www.jenkins.io/doc/book/pipeline/syntax/#scripted-pipeline) built with |Groovy](http://groovy-lang.org/syntax.html)
+[scripted pipeline](https://www.jenkins.io/doc/book/pipeline/syntax/#scripted-pipeline) built with [Groovy](http://groovy-lang.org/syntax.html)
 
 [fundamentals](https://www.jenkins.io/doc/book/pipeline/#scripted-pipeline-fundamentals)
 
